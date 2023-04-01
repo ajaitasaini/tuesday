@@ -16,7 +16,7 @@ The purpose of this project is to build roadmaps that prioritize tasks and goals
 ### Code Design / Architecture
 
 Vue.js enables a component focused framework, so I "template-ized" much of my implementation. Divided into 5 difference components, structured in the following component hierarchy:
-![Hierarchy of components, parent is LoginView, children of LoginView are MemberDirectoryView, RoadmapView, TaskDirectoryView, TaskLinkVue]("./hierarchy_current.png")
+![hierarchy_current](https://user-images.githubusercontent.com/6752256/229263806-365b96c3-0121-43b5-b427-86a50a616648.png)
 
 ### Project Challenges
 
@@ -33,7 +33,7 @@ Vue.js enables a component focused framework, so I "template-ized" much of my im
 - Add a backend! Save and retrieve data on a secured database
 - Take more advantage of vue’s component / prop functionality to share and pass data
   - Restructure the hierarachy accordingly:
-    ![Hierarchy of components, parent is LoginView, children of LoginView are MemberDirectoryView, TaskDirectoryView, and RoadmapView. Children of MemberDirectoryView are RoadmapView. Children of TaskDirectoryView are TaskActionView(formerly TaskLinkView) and RoadmapView.]("./hierarchy_future.png")
+    ![hierarchy_future](https://user-images.githubusercontent.com/6752256/229263813-5b345bef-1f51-48b8-bfcb-0fe65b8fcfa9.png)
 - More accessibility work - download a screen reader to test ARIA specific components and fix issues accordingly
 - Adding more tests + integrating a testing framework like Vitest (compatible with Vue.js)
 - If the focus of this tool is accountability and centering focus areas that are typically put off, how do I prioritize that goal via the design? Little patterns/ actions add up, so how can this tool encourage and prioritize small habits + wins?
