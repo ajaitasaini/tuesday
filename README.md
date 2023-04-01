@@ -1,6 +1,6 @@
 # Tuesday
 
-The purpose of this project is to build roadmaps that prioritize tasks and goals that are often overlooked due to extreme complexities, misunderstandings, large teams, or power imbalances.
+The purpose of this project is to build roadmaps that prioritize tasks and goals that are often overlooked due to extreme complexities, misunderstandings, large teams, or power imbalances. The name Tuesday was inspired by logging new accessibility tasks with an old co-worker every Tuesday :)
 
 ### A front end project built with:
 
